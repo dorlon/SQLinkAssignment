@@ -39,6 +39,7 @@ tests/
 │   ├── cart.spec.ts
 │   ├── checkout.spec.ts
 │   └── full-flow.spec.ts
+│
 ├── pages/
 │   ├── BasePage.ts
 │   ├── HomePage.ts
@@ -47,10 +48,13 @@ tests/
 │   ├── CartPage.ts
 │   ├── CheckoutPage.ts
 │   └── ConfirmationPage.ts
+│
 ├── fixtures/
 │   └── testData.ts
+│
 └── helpers/
     └── utils.ts
+
 
 ## Running the Tests
 Install dependencies:
