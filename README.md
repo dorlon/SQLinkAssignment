@@ -1,9 +1,8 @@
-## ShopHub E2E Test Automation – Playwright ##
+# ShopHub E2E Test Automation – Playwright
 This repository contains a complete end-to-end (E2E) automated test suite for the ShopHub e-commerce application, implemented using Playwright, TypeScript, and the Page Object Model (POM) design pattern.
 The project was developed as part of the ShopHub QA Automation Test Assignment, covering the full user journey from browsing products to completing a purchase
 
-## Features
-# Full E2E Coverage
+## Full E2E Coverage
 The test suite includes complete automation for:
 * Home page navigation & UI validations
 * Products listing: search, filtering, sorting, add to cart
@@ -12,7 +11,7 @@ The test suite includes complete automation for:
 * Checkout: full form validation
 * Complete purchase flow (Home → Products → Details → Cart → Checkout → Confirmation)
 
-# Page Object Model (POM)
+## Page Object Model (POM)
 All pages in the application include dedicated POM classes:
 BasePage
 HomePage
@@ -22,7 +21,7 @@ CartPage
 CheckoutPage
 ConfirmationPage
 
-# TypeScript + Playwright Best Practices
+## TypeScript + Playwright Best Practices
 * Stable selectors using data-testid
 * Auto-waiting & proper asynchronous handling
 * Reusable helper utilities
@@ -30,31 +29,36 @@ ConfirmationPage
 * Descriptive assertions
 * Fully isolated test cases (clearing localStorage before each test)
 
-## Project Structure
+<h2>Project Structure</h2>
 
-אסא;;tests/ב
-txt```├── e2e/
-│   ├── home.spec.ts
-│   ├── products.spec.ts
-│   ├── product-detail.spec.ts
-│   ├── cart.spec.ts
-│   ├── checkout.spec.ts
-│   └── full-flow.spec.ts
-│
-├── pages/
-│   ├── BasePage.ts
-│   ├── HomePage.ts
-│   ├── ProductsPage.ts
-│   ├── ProductDetailPage.ts
-│   ├── CartPage.ts
-│   ├── CheckoutPage.ts
-│   └── ConfirmationPage.ts
-│
-├── fixtures/
-│   └── testData.ts
-│
-└── helpers/
-    └── utils.ts
+<pre>
+tests/
+└── e2e/
+    ├── home.spec.ts
+    ├── products.spec.ts
+    ├── product-detail.spec.ts
+    ├── cart.spec.ts
+    ├── checkout.spec.ts
+    └── full-flow.spec.ts
+
+pages/
+├── BasePage.ts
+├── HomePage.ts
+├── ProductsPage.ts
+├── ProductDetailPage.ts
+├── CartPage.ts
+├── CheckoutPage.ts
+└── ConfirmationPage.ts
+
+fixtures/
+└── testData.ts
+
+helpers/
+└── utils.ts
+</pre>
+
+
+
 
 
 ## Running the Tests
