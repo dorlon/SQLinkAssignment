@@ -31,8 +31,9 @@ ConfirmationPage
 * Fully isolated test cases (clearing localStorage before each test)
 
 ## Project Structure
+
 אסא;;tests/ב
-├── e2e/
+txt```├── e2e/
 │   ├── home.spec.ts
 │   ├── products.spec.ts
 │   ├── product-detail.spec.ts
